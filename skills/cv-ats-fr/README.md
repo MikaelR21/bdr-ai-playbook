@@ -42,6 +42,10 @@ Ensuite, pour une offre précise : « Adapte mon CV à cette offre : [lien ou te
 
 Tous en une colonne, lisibilité ATS 100/100 avec le contrôle du skill.
 
+| Classique | Moderne | Moderne centré (par défaut) | Sobre |
+|-----------|---------|-----------------------------|-------|
+| ![Gabarit classique](assets/gabarits/apercu-classique.png) | ![Gabarit moderne](assets/gabarits/apercu-moderne.png) | ![Gabarit moderne centré](assets/gabarits/apercu-moderne-centre.png) | ![Gabarit sobre](assets/gabarits/apercu-sobre.png) |
+
 | Gabarit | Style | Pour qui |
 |---------|-------|----------|
 | [classique](assets/gabarits/classique.html) | Bleu marine, très sobre | Grands groupes, secteur public |
