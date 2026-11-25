@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>CV Prénom Nom</title>
+<style>
+  /* Gabarit CV lisible par les ATS, design « Moderne tech, en-tête centré ».
+     Une colonne, texte réel, titres standards, aucune image porteuse d'info.
+     Pas de flex, grid, float ni tableau : les dates s'écrivent dans la ligne du poste. */
+  @page { size: A4; margin: 11mm 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 9.6pt; line-height: 1.3; color: #1a1a1a; margin: 0; }
+  p { margin: 0 0 3px; }
+  ul { margin: 2px 0 0; padding-left: 15px; }
+  li { margin: 0 0 1px; }
+  li::marker { color: #0f766e; }
+  a { color: inherit; text-decoration: none; }
+
+  .entete { text-align: center; border-bottom: 3px solid #0f766e; padding-bottom: 6px; margin-bottom: 8px; }
+  h1 { font-size: 21pt; margin: 0; color: #0b1f1d; text-transform: uppercase; }
+  .titre { font-size: 12pt; font-weight: bold; color: #0f766e; margin: 1px 0 3px; }
+  .contact { font-size: 9pt; color: #3f4b4a; margin: 0; }
+  .contact a { color: #0f766e; text-decoration: underline; }
+
+  h2 { font-size: 10.5pt; color: #0f766e; margin: 8px 0 4px; padding: 2px 0 2px 8px; border-left: 3px solid #0f766e; background: #eef7f6; }
+
+  .poste { margin: 0 0 5px; page-break-inside: avoid; }
+  .poste-tete { font-weight: bold; color: #0b1f1d; }
+  .dates { color: #0f766e; font-weight: bold; font-size: 9pt; white-space: nowrap; }
+  .poste-meta { font-size: 9pt; color: #5b6665; font-style: italic; }
+  .comp p { margin-bottom: 2px; }
+</style>
+</head>
+<body>
+  <div class="entete">
+    <h1>Prénom Nom</h1>
+    <p class="titre">Intitulé exact du poste visé · accroche courte</p>
+    <!-- Liens cliquables : le texte visible reste l'adresse complète, pour que l'ATS la lise. -->
+    <p class="contact">06 00 00 00 00 · <a href="mailto:prenom.nom@email.fr">prenom.nom@email.fr</a> · Ville · <a href="https://www.linkedin.com/in/profil">linkedin.com/in/profil</a> · <a href="https://github.com/profil">github.com/profil</a></p>
+  </div>
+
+  <h2>Profil</h2>
+  <p>Accroche de 3 lignes maximum : qui tu es, ta preuve la plus forte chiffrée, ce que tu apportes à ce poste, avec 2 à 4 mots-clés indispensables de l'offre.</p>
+
+  <h2>Compétences</h2>
+  <div class="comp">
+    <p><strong>Compétences métier :</strong> mot-clé, mot-clé, mot-clé</p>
+    <p><strong>IA et automatisation :</strong> outil, usage</p>
+    <p><strong>Outils et logiciels :</strong> outil, logiciel, langage</p>
+  </div>
+
+  <h2>Expériences professionnelles</h2>
+  <div class="poste">
+    <p class="poste-tete">Intitulé du poste · Entreprise<span class="dates"> · mm/aaaa - aujourd'hui</span></p>
+    <p class="poste-meta">Type de contrat · Ville · contexte en quelques mots (secteur, cible)</p>
+    <ul>
+      <li>Verbe d'action + action + outil ou cible + résultat chiffré.</li>
+      <li>Verbe d'action + action + résultat chiffré.</li>
+    </ul>
+  </div>
+
+  <h2>Formation</h2>
+  <div class="poste">
+    <p class="poste-tete">Diplôme préparé · École<span class="dates"> · mm/aaaa - mm/aaaa</span></p>
+    <p class="poste-meta">En cours, obtention prévue en mm/aaaa</p>
+  </div>
+
+  <h2>Certifications</h2>
+  <p>Organisme : certification (mm/aaaa) · Organisme : certification (mm/aaaa)</p>
+
+  <h2>Langues</h2>
+  <p>Français : langue maternelle · Anglais : niveau (certification)</p>
+
+  <h2>Centres d'intérêt</h2>
+  <p>Seulement s'ils servent l'offre.</p>
+</body>
+</html>

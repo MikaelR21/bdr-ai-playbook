@@ -23,6 +23,10 @@ Tout ce qui est ici sert vraiment dans mon quotidien : trouver les bons comptes,
 
 Chaque matin à 8h, une tâche Claude parcourt GitHub, compare les nouveaux skills de vente et de prospection, et me sort un top 5 avec un cas d'usage BDR pour chacun. Les meilleures trouvailles atterrissent dans [`veille/`](veille/).
 
+## Mon skill maison : cv-ats-fr
+
+J'ai construit un skill Claude Code qui adapte un CV à chaque offre pour passer les ATS, sans rien inventer : mots-clés de l'offre, score avant / après, contrôle des faits et PDF d'une page. Il sert à tous les chercheurs d'emploi, quel que soit le métier : au premier lancement, il pose les questions pour construire ton profil. Chez moi, il tourne tout seul le lundi et le jeudi derrière une veille d'offres automatisée. Tout est dans [`skills/cv-ats-fr/`](skills/cv-ats-fr/).
+
 ## Me contacter
 
 Tu recrutes un BDR qui sait automatiser sa prospection ? Écris-moi sur LinkedIn.
