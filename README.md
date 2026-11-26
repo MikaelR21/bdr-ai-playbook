@@ -1,32 +1,21 @@
-# BDR AI Playbook
+# cv-ats-fr
 
-Je suis BDR en alternance. Ce repo montre comment j'utilise l'IA (Claude et ses skills) pour prospecter mieux et plus vite en B2B.
+**Un skill Claude Code gratuit qui trouve les offres, écrit un CV sur mesure pour chacune et suit tes candidatures. Sans jamais rien inventer.**
 
-Tout ce qui est ici sert vraiment dans mon quotidien : trouver les bons comptes, repérer un signal d'achat, écrire un premier message qui donne envie de répondre, relancer sans lourdeur.
+Il marche pour tous les métiers, en CDI, CDD, stage ou alternance, en français ou en anglais.
 
-## Ce que tu trouves ici
+- Il lit ton CV et te pose quelques questions pour créer ton profil.
+- Il cherche les offres publiques sur LinkedIn, Welcome to the Jungle, HelloWork et Indeed.
+- Il écrit un CV ATS sur mesure pour chaque offre, avec les mots-clés exacts de l'annonce.
+- Il vérifie chaque chiffre et chaque intitulé : rien n'est inventé.
+- Il range tout dans un suivi Excel, avec les relances à faire.
+- Il tourne tout seul le lundi et le jeudi, et ne postule jamais à ta place.
 
-| Dossier | Contenu |
-|---------|---------|
-| [`veille/`](veille/) | Ma veille quotidienne : les skills IA les plus utiles pour un BDR, notés sur 10 |
-| [`skills/`](skills/) | Les skills que j'utilise et comment je m'en sers en prospection |
-| [`prompts/`](prompts/) | Mes prompts de prospection testés sur de vrais leads |
+**Tout est dans [`skills/cv-ats-fr/`](skills/cv-ats-fr/)** : présentation complète, installation et les 4 gabarits de CV.
 
-## Ma méthode en 4 étapes
+## Installation rapide
 
-1. **Cibler** : définir le client idéal et les signaux qui montrent qu'un compte est prêt (recrutement, levée, nouvel outil).
-2. **Enrichir** : trouver la bonne personne et ses coordonnées vérifiées.
-3. **Écrire** : un message court, avec une vraie raison de contacter, jamais un template générique.
-4. **Mesurer** : taux d'acceptation, taux de réponse, rendez-vous pris. Ce qui ne marche pas, je l'arrête.
+1. Copie le dossier `skills/cv-ats-fr` dans `~/.claude/skills/` (Windows : `%USERPROFILE%\.claude\skills\`).
+2. Ouvre Claude Code dans un dossier vide et écris : **« Lance le skill cv-ats-fr. »**
 
-## Ma veille automatisée
-
-Chaque matin à 8h, une tâche Claude parcourt GitHub, compare les nouveaux skills de vente et de prospection, et me sort un top 5 avec un cas d'usage BDR pour chacun. Les meilleures trouvailles atterrissent dans [`veille/`](veille/).
-
-## Mon skill maison : cv-ats-fr
-
-J'ai construit un skill Claude Code qui adapte un CV à chaque offre pour passer les ATS, sans rien inventer : mots-clés de l'offre, score avant / après, contrôle des faits et PDF d'une page. Il sert à tous les chercheurs d'emploi, quel que soit le métier : au premier lancement, il pose les questions pour construire ton profil. Chez moi, il tourne tout seul le lundi et le jeudi derrière une veille d'offres automatisée. Tout est dans [`skills/cv-ats-fr/`](skills/cv-ats-fr/).
-
-## Me contacter
-
-Tu recrutes un BDR qui sait automatiser sa prospection ? Écris-moi sur LinkedIn.
+Licence MIT.
